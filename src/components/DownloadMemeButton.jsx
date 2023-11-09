@@ -9,6 +9,7 @@ import React from 'react';
 const DownloadMemeButton = ({ memeRef, meme }) => {
   const handleDownloadClick = async () => {
     if (memeRef.current) { //only returns one item an obj "current"
+      //John said doing this on line 13 is a big no-no. CHNAGE ASAP
       const canvas = document.createElement('canvas');
       const ctx = canvas.getContext('2d');
       const image = new Image();
