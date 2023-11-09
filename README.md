@@ -1,4 +1,6 @@
-# React + Vite
+# Meme_Generator
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -18,4 +20,4 @@ Dark Mode Issues
     - Fix footer workaround 
     - Remove black line in text from dark mode 
     - Add a shadow around button animations
-    - Update colour scheme 
+    - Update c
